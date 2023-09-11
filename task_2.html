@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS TASK-2</title>
+
+<style>
+.nav-box {
+  background-color: white;
+  padding: 10px;
+  
+  width: 300px; 
+  border: 1px solid #ccc; 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+    background-color: lightblue;
+
+  background-color: #B2BEB5;
+  display: flex;
+  text-align: center;
+}
+
+li {
+  float: left;
+  border-right: 1px solid blue;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  font-weight: bold;
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #899388;
+}
+</style>
+</head>
+<body>
+<h2>Horizontal Navigation Bar</h2>
+
+<div class="nav-box">
+  <ul>
+    <li><a class="active" href="#home" style="text-color:red;">Home</a></li>
+    <li><a href="#news">Java</a></li>
+    <li><a href="#contact">HTML</a></li>
+    <li><a href="#about">CSS</a></li>
+  </ul>
+</div>
+
+</body>
+</html>
